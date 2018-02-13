@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import "reset.css";
+
+html,body{
+    height: 100%;
+}
+
+.main-container {
+    min-height: calc(100vh - 60px);
+}
+
+
+header{
+    border: #ff0002 3px solid;
+    height: 30px;
+}
+
+footer{
+    border: #ff0002 3px solid;
+    height:30px;
+}
+
+aside{
+    float:left;
+    width: 320px;
+    border: #999 3px solid;
+}
+
+.avatar-info{
+    border: #999 10px solid;
+    height: 80px;
+}
+
+.contacts-search{
+    border: #999 10px solid;
+    height: 40px;
+}
+
+.aside-navigation{
+    border: #999 10px solid;
+    height: 40px;
+}
+
+.aside-contacts{
+    border: #999 10px solid;
+    min-height: calc(100vh - 60px - 80px - 40px - 40px);
+}
+
+.right-side{
+    border: green 10px solid;
+    min-height: calc(100vh - 60px - 80px - 40px - 40px);
+}

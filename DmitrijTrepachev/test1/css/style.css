@@ -1,0 +1,35 @@
+/*reset + */
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+/*reset - */
+
+.aside-list {
+    width: 200px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.aside-list a:link, .aside-list a:visited{
+    color: white;
+    font: 13px Arial;
+    border: 1px solid black;
+    display: block;
+    padding: 0px 5px;
+    line-height: 30px;
+    background-color: #484848;
+    font-weight: bold
+}
+
+.aside-list a:hover {
+    background-color: #fff;
+    color: black;
+}
