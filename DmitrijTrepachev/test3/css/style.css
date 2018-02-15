@@ -1,0 +1,159 @@
+/*reset + */
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*reset - */
+
+body {
+    background-color: #ebebeb;
+}
+
+.header-line {
+    position: absolute;
+    height: 50px;
+    background-color: #242424;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer-line {
+    height: 280px;
+    background-color: #242424;
+    width: 100%;
+    z-index: -1;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1100px;
+}
+
+.header {
+    margin: 0px;
+    border: 0px;
+}
+
+.header-list li {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 19px;
+}
+
+a {
+    display: block;
+    padding: 0px 20px;
+}
+
+.header-list a:link, .header-list a:visited {
+    color: white;
+}
+
+.header-list a:hover, .header-list a.active {
+    color: white;
+    background-color: #585858;
+}
+
+.flex {
+    display: flex;
+}
+
+.content {
+
+    margin: 30px 0px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.content-left {
+    width: 250px;
+}
+
+.content-center {
+    width: 600px;
+}
+
+.content-right {
+    width: 250px;
+}
+
+.content-left__text, .content-right__text {
+    padding: 0px 20px;
+}
+
+.content-left__text h2, .content-right__text h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.content-center__text h2 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.content-right__text>div{
+    margin: 20px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+.content-left p, .content-right__ul li, .content-right p {
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.content-center p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+}
+
+.footer-content {
+    flex: 1;
+    height: 200px;
+    background-color: #ebebeb;
+    /*margin-right: 20px;*/
+    margin-right: 1.3333%;
+    margin-top: 30px;
+    /*margin-bottom: 50px;*/
+}
+
+.footer-content__last {
+    margin-right: 0px;
+}
+
+.footer-content__text{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-content__text p{
+    margin-bottom: 3px;
+}
+
+.footer-logo{
+    margin-top:30px;
+    color:white;
+    text-align: center;
+    font-size: 13px;
+}

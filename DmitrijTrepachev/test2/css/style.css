@@ -26,3 +26,11 @@ li {
     background-color: #484848;
     border: 1px solid black;
 }
+
+li{
+    width:100px;
+}
+a{
+    display: block;
+    width:100%;
+}
