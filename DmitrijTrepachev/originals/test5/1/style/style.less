@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #444444;
+    background: #B17E4F;
+}
+a{
+	text-decoration: none;
+	color: #96AE3E;
+}
+ul{
+	list-style: none;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+.header a.logo{
+	float: left;
+	padding: 60px 0 10px 30px;
+	font-size: 44px;
+    font-weight: bold;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.header p{
+	float: right;
+    padding: 80px 30px 0 0;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-transform: lowercase;
+    color: #CEB6A4;
+}
+
+.main{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+
+// main content
+
+.content{
+	width: 928px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+nav ul{
+	display: flex;
+	text-align: center;
+	margin-bottom: 15px;
+	li{
+		flex: 1;
+		a{
+			display: block;
+			width: 100%;
+			background: #000;
+			color: #fff;
+			text-transform: uppercase;
+			padding: 20px 0;
+			&:hover{
+				background: #1B3039;
+			}
+		}
+		.active{
+			background: #1B3039;
+		}
+	}
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+// LEFT SIDE
+
+.left__side{
+	float: left;
+    width: 570px;
+    padding: 0 0 10px 15px;
+    h3{
+    	font-size: 3em;
+    	letter-spacing: -1px;
+    	
+    	text-transform: lowercase;
+    	a{
+    		color: #9F6841;
+    	}
+    }
+    .postmeta{
+    	padding-bottom: 30px;
+    }
+    p{
+    	padding-bottom: 30px;
+    	line-height: 2;
+    }
+}
+
+// RIGHT SIDE
+
+.right__side{
+	float: right;
+    width: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 7px;
+    background: #EFEDE5;
+    border: 1px solid #E8E6DE;
+    h4 {
+	    padding-left: 15px;
+	    font-size: 1.5em;
+	    line-height: 2em;
+	    color: #FFFFFF;
+	    background: #5D9EBD;
+	    border: 1px solid #5692AE;
+	}
+	ul{
+		padding: 1em 0;
+		li{
+			padding-left: 15px;
+    		line-height: 2.5em;
+    		border-bottom: 1px solid #E8E6DE;
+		}
+	}
+}
+
+.box2 p{
+	padding: 20px 15px;
+	line-height: 2;
+}
+
+// footer
+
+footer{
+	text-align: center;
+	padding: 30px 15px;
+	background: #fff;
+	p{
+		
+		background: #D1E4A7;
+		padding: 30px 15px;
+	}
+}

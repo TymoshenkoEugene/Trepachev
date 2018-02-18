@@ -1,0 +1,235 @@
+/*reset + */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #F0A003;
+    text-decoration: underline;
+}
+
+/*reset - */
+
+h1, h2, nav{
+    text-transform: lowercase;
+}
+
+body {
+    background-color: #ebebeb;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: normal;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+h2 {
+    font: normal 54px Georgia, Times, serif;
+    letter-spacing: -3px;
+    color: #000000;
+}
+
+img{
+    width:100%;
+    margin-top:60px;
+}
+
+p {
+    padding: .75em 0;
+    line-height: 2em;
+    text-align: justify;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 120px;
+
+    margin-top: 40px;
+}
+
+header h2 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__logo-name {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.header__logo-name a {
+    line-height: 120px;
+}
+
+.header__subtitle {
+    flex: 1;
+
+    padding-right: 30px;
+}
+
+.header__subtitle p {
+    font: 20px/120px Georgia, Times, serif;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    color: #999999;
+    text-align: right;
+    padding:0px;
+}
+
+nav{
+    height:84px;
+    background-color: #EA9B23;
+    padding-left:30px;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav li{
+    flex:1;
+    /*text-align: center;*/
+    line-height: 76px;
+    font-size: 1.2em;
+
+}
+
+nav li a{
+    color:#F7DAAF;
+    display:block;
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #F9E6C8;
+}
+
+nav ul li.active a:hover {
+    color: #F7DAAF;
+}
+
+.content{
+    margin-top:60px;
+    display: flex;
+    justify-content: space-between;
+    /*flex:1;*/
+}
+
+aside{
+    width: 270px;
+    margin-left: 30px;
+}
+.content-right{
+    width:570px;
+    margin-right:30px;
+}
+
+p.postmeta {
+    color: #888888;
+}
+
+aside h3 {
+    font: normal 1.75em Georgia, Times, serif;
+    letter-spacing: -1px;
+}
+
+aside ul li {
+    padding-left: 16px;
+    line-height: 3em;
+    background: url(../img/li.gif) no-repeat 0 1.25em;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.content h3 {
+    font: normal 1.75em Georgia, Times, serif;
+    letter-spacing: -1px;
+}
+
+aside .boxtxt {
+    padding: .25em 0 3.25em 0;
+}
+
+aside p {
+    text-align: left;
+}
+
+aside ul {
+    list-style: none;
+    padding: 1em 0 4em 0;
+}
+
+aside h3 {
+    color: black;
+}
+
+.readmore a{
+    border: 1px solid #E9E9E9;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+p.readmore{
+    text-align: right;
+    padding-right: 2em;
+}
+
+.content-right .entry {
+    padding: .75em 0 0 0;
+}
+
+.content-right h3 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.content-right h3 {
+    font: normal 3em Georgia, Times, serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 3em;
+    line-height: normal;
+    font-family: Georgia, Times, serif;
+    letter-spacing: -2px;
+}
+
+.content .post {
+    padding: 0 0 4em 0;
+}
+
+
+footer{
+    height: 106px;
+    border-top: 1px solid #E9E9E9;
+    margin-top: 10px;
+}
+
+footer p{
+    line-height: 106px;
+    text-align: center;
+    padding: 0px;
+}
