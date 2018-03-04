@@ -1,0 +1,43 @@
+
+
+h1,h2,h3{
+    color:blue;
+    text-align:center;
+}
+
+b{
+    color: red;
+}
+
+.wrapper{
+    width: 400px;
+}
+
+p {
+    font: 16px/30px Arial;
+    width: 400px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+i{
+    color:blue;
+}
+
+#img1{
+    float:left;
+    margin-right: 10px;
+}
+
+#img2{
+    float:right;
+    margin-left: 10px;
+}
